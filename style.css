@@ -144,6 +144,39 @@ body {
     align-items: center;
     border-radius: 25px;
 }
+.chat-message2{
+    position: absolute;
+    left: 2rem;
+    bottom: 14rem;
+}
+.chat-message2 .pure-text img{
+    margin-right: 10px;
+}
+.chat-message{
+    position: absolute;
+    right: 2rem;
+    bottom: 8rem;
+    float: right;
+}
+.pure-text{
+    display: flex;
+}
+.pure-text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #110933;
+    border-radius: 20px;
+    padding: 0 18px;
+    font-weight: 500;
+    color:white ;
+}
+.pure-text img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 .message input{
     /* background-color: #f0f0f0; */
     box-shadow: -1px -1px 1px #cfd0d1 ,1px 1px 1px #cfd0d1;
